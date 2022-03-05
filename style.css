@@ -83,47 +83,50 @@ h4{
 
 }
 .wrapper{
-    display: flex;
-    justify-content: space-between;
-   
- 
-}
-.info-wrapper{
-    display: flex;
-    flex-direction: column;
-   width: 1920px; 
+    max-width: 1920px;
     width: 100%;
     height: 1080px;
+    background-color: #0020F4;
     margin-top: 180px;
-    background-color: #0a22f4;
-   
+    display: flex;
+    justify-content: space-evenly;
 }
 h1{
-    margin-left: 240px;
-    margin-top: 275px;
-    font-size: 32px;
     width: 162px;
     height: 38px;
-    line-height: 29px;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 39px;
     color: #FFFFFF;
+    margin-top: 275px;
+    margin-left: 240px;
 }
-h6{
+.text{
     width: 463px;
     height: 99px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 25px;
     margin-left: 240px;
     margin-top: 30px;
-    color: #ffff;
-    
+    color: #FFFFFF;
 }
 iframe{
-    margin-left: 240px;
-    margin-top: 58px;
     width: 463px;
     height: 197px;
+    margin-top: 58px;
+    margin-left: 240px;
     border-radius: 15px;
-    background: transparent;
     opacity: 1;
-    
+}
+.form-row{
+    margin-top: 300px;
+    width: 117px;
+    height: 19px;
+    size: 16px;
+    color: white;
+}
+input{
+    background-color: #0a22f4;
+    background-color: transparent;
+    border: 0px solid;
 }
