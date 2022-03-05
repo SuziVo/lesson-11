@@ -22,6 +22,17 @@ li{
     line-height: 18px;
     margin-right: 80px;
 }
+.block{
+    width: 160px;
+    height: 50px;
+    border-radius: 28px;
+    background-color: #FFFFFF;
+    color: black;
+    top: 63px;
+    left: 1555px;
+    text-align: center;
+    padding-top: 18px;
+}
 
 img{
     margin-left: 240px;
@@ -79,8 +90,6 @@ h4{
     text-align: left;
     line-height: 19px;
     margin: 50px;  
-    
-
 }
 .wrapper{
     max-width: 1920px;
@@ -89,7 +98,7 @@ h4{
     background-color: #0020F4;
     margin-top: 180px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly
 }
 h1{
     width: 162px;
@@ -118,15 +127,60 @@ iframe{
     border-radius: 15px;
     opacity: 1;
 }
+.registration-wrapper{
+    margin-top: 373px;
+   
+}
 .form-row{
-    margin-top: 300px;
     width: 117px;
     height: 19px;
     size: 16px;
     color: white;
+    padding-bottom: 80px;
 }
 input{
     background-color: #0a22f4;
     background-color: transparent;
     border: 0px solid;
 }
+button{
+    border-radius: 28px;
+    margin-left: 241px;
+    width: 151px;
+    height: 55px;
+    margin-top: 101px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0020F4;
+}
+h5{
+    margin-left: 250px;
+    margin-bottom: 40px;
+    width: 209px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.right-side{
+    display: flex;
+    
+}
+.left{
+    width: 106px;
+    height: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+/* .heart{
+    height: 26px;
+    width: 26px;
+    
+} */
