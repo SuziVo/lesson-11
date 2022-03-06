@@ -218,6 +218,9 @@ h5{
         width: 334px;
         height: 461px;
     }
+    .footer{
+        width: 100%;
+    }
     .wrapper{
         display: flex;
         justify-content: center;
