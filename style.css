@@ -127,6 +127,31 @@ iframe{
     border-radius: 15px;
     opacity: 1;
 }
+
+.icons{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    width: 672px;
+    height: 170px;
+    grid-column-gap: 180px;
+    
+  
+}
+
+.phone{
+    width: 178px;
+    height: 26px;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 27px;
+}
+.email{
+    width: 216px;
+    height: 26px;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 27px;
+}
 .registration-wrapper{
     margin-top: 373px;
    
@@ -196,11 +221,13 @@ h5{
        width: 100%;
        width: 97px;
        height: 55px;
+       
     }
     .main{
         width: 100%;
         width: 334px;
         height: 210px;
+        margin: 20px 0;
     }
     h2{
         width: 334px;
@@ -217,6 +244,7 @@ h5{
     p{
         width: 334px;
         height: 461px;
+        
     }
     .footer{
         width: 100%;
